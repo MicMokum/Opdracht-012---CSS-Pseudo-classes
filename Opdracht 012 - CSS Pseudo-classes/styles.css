@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+body, button{
+    background-color: #444;
+}
+
+nav{
+    background-color: darkblue;
+}
+
+nav ul li{
+    margin: 10px;
+}
+
+nav ul li:first-child{
+    margin-left: 0px;
+}
+
+nav ul li a{
+    font-style: normal;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+    color: lightblue;
+    background-color: lightblue;
+}
+
+nav ul li a:visited{
+    color: yellow;
+}
+
+nav ul li a:active{
+    color: red;
+    font-style: italic;
+}
+
+nav ul li form input{
+    color: red
+}
+
+nav ul li form input:focus{
+    border: 10px aqua dotted;
+    font-size: 20px;
+    color: green
+}
+
+.currentPage{
+    background-color: gray;
+}
+
+nav li, nav form {
+    display: inline;
+    padding: 5px;
+}
+
